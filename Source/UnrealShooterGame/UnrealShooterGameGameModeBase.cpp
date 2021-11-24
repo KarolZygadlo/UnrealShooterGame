@@ -3,3 +3,7 @@
 
 #include "UnrealShooterGameGameModeBase.h"
 
+void AUnrealShooterGameGameModeBase::PawnKilled(APawn* PawnKilled)
+{
+
+}

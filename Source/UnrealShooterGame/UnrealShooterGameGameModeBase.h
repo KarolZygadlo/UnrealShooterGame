@@ -14,4 +14,6 @@ class UNREALSHOOTERGAME_API AUnrealShooterGameGameModeBase : public AGameModeBas
 {
 	GENERATED_BODY()
 	
+public:
+	virtual void PawnKilled(APawn* PawnKilled);
 };
